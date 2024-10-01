@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ReciclaMais.Models.Material>
+
+@{
+    ViewData["Title"] = "Materiais Disponíveis";
+}
+
+<h2>Materiais Disponíveis para Coleta</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Descrição</th>
+            <th>Peso Aproximado</th>
+            <th>Status</th>
+            <th>Contribuinte</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var material in Model)
+        {
+            <tr>
+                <td>@material.Descricao</td>
+                <td>@material.PesoAproximado kg</td>
+                <td>@material.Status</td>
+                <td>@material.Contribuinte.Nome</td>
+                <td>
+                    <a asp-action="Detalhes" asp-route-id="@material.Id">Ver Detalhes</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

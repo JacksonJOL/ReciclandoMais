@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Postar Material para Coleta";
+}
+
+<h2>Postar Material para Coleta</h2>
+<form asp-action="PostarMaterial" method="post">
+    <div>
+        <label>Descrição:</label>
+        <input type="text" name="descricao" required />
+    </div>
+    <div>
+        <label>Peso Aproximado (kg):</label>
+        <input type="number" name="pesoAproximado" step="0.01" required />
+    </div>
+    <div>
+        <label>Medidas:</label>
+        <input type="text" name="medidas" required />
+    </div>
+    <button type="submit">Postar Material</button>
+</form>
+

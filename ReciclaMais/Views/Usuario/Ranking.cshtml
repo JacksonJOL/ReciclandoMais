@@ -1,0 +1,25 @@
+﻿@model IEnumerable<ReciclaMais.Models.Contribuinte>
+
+@{
+    ViewData["Title"] = "Ranking dos Contribuintes";
+}
+
+<h2>Ranking dos Contribuintes</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Contribuinte</th>
+            <th>Materiais Postados</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contribuinte in Model)
+        {
+            <tr>
+                <td>@contribuinte.Nome</td>
+                <td>@contribuinte.Materiais.Count</td>
+            </tr>
+        }
+    </tbody>
+</table>

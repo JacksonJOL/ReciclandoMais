@@ -1,0 +1,35 @@
+﻿@model ReciclaMais.Models.Material
+
+@{
+    ViewData["Title"] = "Detalhes do Material";
+}
+
+<h2>Detalhes do Material</h2>
+
+<div>
+    <strong>Descrição:</strong> @Model.Descricao
+</div>
+<div>
+    <strong>Peso Aproximado:</strong> @Model.PesoAproximado kg
+</div>
+<div>
+    <strong>Status:</strong> @Model.Status
+</div>
+<div>
+    <strong>Contribuinte:</strong> @Model.Contribuinte.Nome
+</div>
+
+@if (Model.Status == ReciclaMais.Models.StatusMaterial.Disponivel)
+{
+    <form asp-action="MarcarComoColetado" method="post">
+        <input type="hidden" name="id" value="@Model.Id" />
+        <button type="submit">Marcar como Coletado</button>
+    </form>
+}
+@if (Model.Status == ReciclaMais.Models.StatusMaterial.Disponivel)
+{
+    <form asp-action="ManifestarInteresse" method="post">
+        <input type="hidden" name="id" value="@Model.Id" />
+        <button type="submit">Manifestar Interesse</button>
+    </form>
+}
