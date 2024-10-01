@@ -15,7 +15,7 @@ public class MensagemController : Controller
     // Exibe as mensagens trocadas entre dois usuários
     public IActionResult Conversa(int usuarioId)
     {
-        var usuarioLogadoId = 1; // Substituir pelo ID do usuário logado
+        var usuarioLogadoId = 1; // Substituir pelo ID do usuario logado
 
         var mensagens = _context.Mensagens
             .Where(m => (m.RemetenteId == usuarioLogadoId && m.DestinatarioId == usuarioId)
@@ -28,11 +28,11 @@ public class MensagemController : Controller
         return View(mensagens);
     }
 
-    // Envia uma mensagem
+    // Enviar uma mensagem
     [HttpPost]
     public IActionResult EnviarMensagem(int destinatarioId, string conteudo)
     {
-        var usuarioLogadoId = 1; // Substituir pelo ID do usuário logado
+        var usuarioLogadoId = 1; // Substituir pelo ID do usuario logado
 
         var mensagem = new Mensagem
         {
@@ -50,7 +50,7 @@ public class MensagemController : Controller
     [HttpPost]
     public IActionResult EnviarMensagens(int destinatarioId, string conteudo)
     {
-        var usuarioLogadoId = 1; // Substituir pelo ID do usuário logado
+        var usuarioLogadoId = 1; // Substituir pelo ID do usuario logado
 
         var mensagem = new Mensagem
         {
@@ -72,7 +72,7 @@ public class MensagemController : Controller
         if (string.IsNullOrEmpty(conteudo))
         {
             ModelState.AddModelError("conteudo", "O conteúdo da mensagem é obrigatório.");
-            return View("Conversa"); // Retorna a view com os erros de validação
+            return View("Conversa"); // Retorna a view com os erros de validação se houver
         }
 
         var usuarioLogadoId = 1; // Substituir pelo ID do usuário logado

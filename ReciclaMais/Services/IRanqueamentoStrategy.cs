@@ -1,5 +1,5 @@
 ﻿// Services/IRanqueamentoStrategy.cs STRATEGY
-using ReciclaMais.Models; // Certifique-se de que esta linha esteja presente
+using ReciclaMais.Models; 
 
 namespace ReciclaMais.Services
 {

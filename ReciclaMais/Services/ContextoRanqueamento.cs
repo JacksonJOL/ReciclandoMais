@@ -1,5 +1,4 @@
-﻿using ReciclaMais.Models; // Adicione esta linha para importar o namespace
-
+﻿using ReciclaMais.Models;
 namespace ReciclaMais.Services
 {
     public class ContextoRanqueamento

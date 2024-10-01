@@ -11,13 +11,13 @@ public class UsuarioController : Controller
         _context = context;
     }
 
-    // Exibe a página de cadastro
+    // Exibe a pagina de cadastro
     public IActionResult Cadastro()
     {
         return View();
     }
 
-    // Processa o cadastro do usuário
+    // Processa o cadastro do usurio
     [HttpPost]
     public IActionResult Cadastro(string nome, string email, string telefone, string endereco, string tipoUsuario)
     {
@@ -33,7 +33,7 @@ public class UsuarioController : Controller
         }
         else
         {
-            // Tipo de usuário inválido
+            // Tipo de usuario invalido
             return BadRequest("Tipo de usuário inválido.");
         }
 
