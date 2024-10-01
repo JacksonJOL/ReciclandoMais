@@ -117,9 +117,7 @@ C:\Users\SuasVendas\source\repos\ReciclaMais\ReciclaMais\obj\Debug\net8.0\static
 C:\Users\SuasVendas\source\repos\ReciclaMais\ReciclaMais\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReciclaMais.props
 C:\Users\SuasVendas\source\repos\ReciclaMais\ReciclaMais\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReciclaMais.props
 C:\Users\SuasVendas\source\repos\ReciclaMais\ReciclaMais\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\SuasVendas\source\repos\ReciclaMais\ReciclaMais\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\SuasVendas\source\repos\ReciclaMais\ReciclaMais\obj\Debug\net8.0\scopedcss\bundle\ReciclaMais.styles.css
-C:\Users\SuasVendas\source\repos\ReciclaMais\ReciclaMais\obj\Debug\net8.0\scopedcss\projectbundle\ReciclaMais.bundle.scp.css
 C:\Users\SuasVendas\source\repos\ReciclaMais\ReciclaMais\obj\Debug\net8.0\ReciclaM.DC8752D3.Up2Date
 C:\Users\SuasVendas\source\repos\ReciclaMais\ReciclaMais\obj\Debug\net8.0\ReciclaMais.dll
 C:\Users\SuasVendas\source\repos\ReciclaMais\ReciclaMais\obj\Debug\net8.0\refint\ReciclaMais.dll

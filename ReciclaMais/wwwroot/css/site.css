@@ -1,26 +1,44 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa; /* Cor de fundo leve */
     margin: 0;
     padding: 0;
+    background-image: url(https://velpmais.com.br/wp-content/uploads/2024/01/Camada-8-copiar.png);
+    background-size:auto;
+    
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://velpmais.com.br/wp-content/uploads/2024/01/Camada-8-copiar.png);
+    background-size: cover; /* Ou 'auto', dependendo do seu desejo */
+    opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
 }
 
 header {
-    background-color: #28a745;
+    background-color: black;
     padding: 15px;
-    color: white;
+    color: black;
+   
 }
 
     header nav {
         display: flex;
         justify-content: center;
+        color: black;
     }
 
         header nav a {
-            color: white;
-            text-decoration: none;
+            color: black;
+            text-decoration:underline;
             margin: 0 15px;
-            font-size: 16px;
+            font-size: 26px;
+            
         }
 
             header nav a:hover {
@@ -30,14 +48,15 @@ header {
 .container {
     margin: 20px auto;
     max-width: 960px;
-    background-color: white;
+    background-color: #a3b18a;
+  
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    background-color: #28a745;
+    background-color: #588157;
     color: white;
     padding: 20px;
     text-align: center;
@@ -48,7 +67,7 @@ footer {
 }
 
 button {
-    background-color: #28a745;
+    background-color: #344e41;
     color: white;
     padding: 10px 20px;
     border: none;

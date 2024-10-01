@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ReciclaMais.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ReciclaMais.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
