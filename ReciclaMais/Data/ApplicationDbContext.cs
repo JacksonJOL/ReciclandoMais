@@ -15,6 +15,8 @@ namespace ReciclaMais.Data
         public DbSet<Material> Materiais { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
 
+        public DbSet<Mensagem> Mensagens { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Configurações de mapeamento de entidades

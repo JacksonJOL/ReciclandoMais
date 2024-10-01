@@ -50,5 +50,14 @@ public class UsuarioController : Controller
 
         return View(contribuintes);
     }
+    public IActionResult RankingOK()
+    {
+        var contribuintes = _context.Usuarios
+            .OfType<Contribuinte>()
+            .OrderByDescending(c => c.Materiais.Count) // Ordena por número de materiais postados
+            .ToList();
+
+        return View(contribuintes);
+    }
 
 }

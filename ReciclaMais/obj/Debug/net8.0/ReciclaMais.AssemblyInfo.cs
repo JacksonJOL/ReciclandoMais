@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReciclaMais")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca1ebe8016f95b1bb12eb8d93c483d6dcf44e858")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReciclaMais")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReciclaMais")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

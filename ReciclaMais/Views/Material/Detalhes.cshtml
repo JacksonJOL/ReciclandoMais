@@ -19,6 +19,19 @@
     <strong>Contribuinte:</strong> @Model.Contribuinte.Nome
 </div>
 
+@{
+    ViewData["Title"] = "Detalhes do Material";
+}
+
+<h2>Detalhes do Material</h2>
+
+@if (TempData["Mensagem"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["Mensagem"]
+    </div>
+}
+
 @if (Model.Status == ReciclaMais.Models.StatusMaterial.Disponivel)
 {
     <form asp-action="MarcarComoColetado" method="post">
@@ -33,3 +46,17 @@
         <button type="submit">Manifestar Interesse</button>
     </form>
 }
+<!-- Permitir que o Contribuinte altere o status do material -->
+@if (Model.Status == ReciclaMais.Models.StatusMaterial.Disponivel)
+{
+    <form asp-action="AlterarStatus" method="post">
+        <input type="hidden" name="id" value="@Model.Id" />
+        <select name="novoStatus">
+            <option value="Coletado">Marcar como Coletado</option>
+        </select>
+        <button type="submit">Alterar Status</button>
+    </form>
+}
+<a asp-controller="Mensagem" asp-action="Conversa" asp-route-usuarioId="@Model.Contribuinte.Id">Iniciar Conversa</a>
+
+
