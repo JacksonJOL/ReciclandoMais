@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\services\\contextoranqueamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\services\\contextoranqueamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\services\\ranqueamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\services\\ranqueamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\services\\ranqueamentoporquantidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\services\\ranqueamentoporquantidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\services\\ranqueamentoporpeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\services\\ranqueamentoporpeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\services\\iranqueamentostrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\services\\iranqueamentostrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\views\\usuario\\ranking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\views\\usuario\\ranking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -91,58 +115,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ContextoRanqueamento.cs",
+              "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Services\\ContextoRanqueamento.cs",
+              "RelativeDocumentMoniker": "ReciclaMais\\Services\\ContextoRanqueamento.cs",
+              "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Services\\ContextoRanqueamento.cs",
+              "RelativeToolTip": "ReciclaMais\\Services\\ContextoRanqueamento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:57:40.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RanqueamentoService.cs",
+              "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Services\\RanqueamentoService.cs",
+              "RelativeDocumentMoniker": "ReciclaMais\\Services\\RanqueamentoService.cs",
+              "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Services\\RanqueamentoService.cs",
+              "RelativeToolTip": "ReciclaMais\\Services\\RanqueamentoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:56:53.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RanqueamentoPorQuantidade.cs",
+              "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Services\\RanqueamentoPorQuantidade.cs",
+              "RelativeDocumentMoniker": "ReciclaMais\\Services\\RanqueamentoPorQuantidade.cs",
+              "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Services\\RanqueamentoPorQuantidade.cs",
+              "RelativeToolTip": "ReciclaMais\\Services\\RanqueamentoPorQuantidade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:56:43.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RanqueamentoPorPeso.cs",
+              "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Services\\RanqueamentoPorPeso.cs",
+              "RelativeDocumentMoniker": "ReciclaMais\\Services\\RanqueamentoPorPeso.cs",
+              "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Services\\RanqueamentoPorPeso.cs",
+              "RelativeToolTip": "ReciclaMais\\Services\\RanqueamentoPorPeso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:56:32.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRanqueamentoStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Services\\IRanqueamentoStrategy.cs",
+              "RelativeDocumentMoniker": "ReciclaMais\\Services\\IRanqueamentoStrategy.cs",
+              "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Services\\IRanqueamentoStrategy.cs",
+              "RelativeToolTip": "ReciclaMais\\Services\\IRanqueamentoStrategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:56:16.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ranking.cshtml",
+              "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Views\\Usuario\\Ranking.cshtml",
+              "RelativeDocumentMoniker": "ReciclaMais\\Views\\Usuario\\Ranking.cshtml",
+              "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Views\\Usuario\\Ranking.cshtml",
+              "RelativeToolTip": "ReciclaMais\\Views\\Usuario\\Ranking.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-02T13:42:35.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ReciclaMais\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Controllers\\AccountController.cs",
               "RelativeToolTip": "ReciclaMais\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwAwAAAAjAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAIwEcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T01:52:42.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ReciclaMais\\Models\\LoginViewModel.cs",
               "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Models\\LoginViewModel.cs",
               "RelativeToolTip": "ReciclaMais\\Models\\LoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-02T02:32:41.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "ReciclaMais\\Views\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "ReciclaMais\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowBwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-02T01:55:14.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Startup.cs",
               "RelativeDocumentMoniker": "ReciclaMais\\Startup.cs",
               "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Startup.cs",
               "RelativeToolTip": "ReciclaMais\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAAAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAiwE0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T18:29:12.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Models\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "ReciclaMais\\Models\\RegisterViewModel.cs",
@@ -161,14 +263,14 @@
               "RelativeDocumentMoniker": "ReciclaMais\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ReciclaMais\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAJwAAAAAAAAAAAAAAGsAAAAnAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAawC4AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-02T01:56:04.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "ReciclaMais\\Views\\Account\\Register.cshtml",
@@ -181,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ReciclaMais\\Data\\ApplicationDbContext.cs",
@@ -194,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Program.cs",
               "RelativeDocumentMoniker": "ReciclaMais\\Program.cs",

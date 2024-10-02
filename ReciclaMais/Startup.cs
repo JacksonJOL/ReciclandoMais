@@ -1,6 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 using ReciclaMais.Data;
+using Microsoft.AspNetCore.Localization;
+
+
 
 public class Startup
 {
@@ -18,6 +22,21 @@ public class Startup
             options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
 
         services.AddControllersWithViews();
+        services.AddRazorPages();
+
+        services.AddLocalization(options => options.ResourcesPath = "Resources");
+        services.Configure<RequestLocalizationOptions>(options =>
+        {
+            var supportedCultures = new[] { new System.Globalization.CultureInfo("pt-BR") };
+            options.DefaultRequestCulture = new Microsoft.AspNetCore.Localization.RequestCulture("pt-BR");
+            options.SupportedCultures = supportedCultures;
+            options.SupportedUICultures = supportedCultures;
+        });
+
+        services.AddControllersWithViews()
+            .AddDataAnnotationsLocalization()
+            .AddViewLocalization();
+
         services.AddRazorPages();
 
         // Mantenha apenas uma configuração de Identity
@@ -46,6 +65,17 @@ public class Startup
         app.UseHttpsRedirection();
         app.UseStaticFiles();
 
+        // Definindo culturas suportadas
+        var supportedCultures = new[] { new CultureInfo("pt-BR") };
+        var localizationOptions = new RequestLocalizationOptions
+        {
+            DefaultRequestCulture = new RequestCulture("pt-BR"),
+            SupportedCultures = supportedCultures,
+            SupportedUICultures = supportedCultures
+        };
+
+        // Aplicando a configuração de localização
+        app.UseRequestLocalization(localizationOptions);
         app.UseRouting();
 
         app.UseAuthentication(); // Certifique-se de que isso esteja aqui
