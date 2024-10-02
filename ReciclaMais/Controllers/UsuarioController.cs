@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ReciclaMais.Data;
 using ReciclaMais.Models;
 
+
+[Authorize]
 public class UsuarioController : Controller
 {
     private readonly ApplicationDbContext _context;

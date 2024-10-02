@@ -1,9 +1,11 @@
 ﻿
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ReciclaMais.Data;
 using ReciclaMais.Models;
 
+[Authorize]
 public class MaterialController : Controller
 {
     private readonly ApplicationDbContext _context;

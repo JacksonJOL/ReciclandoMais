@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ReciclaMais.Data;
 using ReciclaMais.Models;
 using System.Linq;
 
+[Authorize]
 public class MensagemController : Controller
 {
     private readonly ApplicationDbContext _context;

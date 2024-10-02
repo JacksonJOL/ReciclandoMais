@@ -1,10 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using ReciclaMais.Data;
 
 public class Startup
@@ -13,7 +8,6 @@ public class Startup
     {
         Configuration = configuration;
     }
-
 
     public IConfiguration Configuration { get; }
 
@@ -26,25 +20,22 @@ public class Startup
         services.AddControllersWithViews();
         services.AddRazorPages();
 
+        // Mantenha apenas uma configuração de Identity
         services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
             .AddEntityFrameworkStores<ApplicationDbContext>();
 
-        services.AddIdentity<IdentityUser, IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>()
-    .AddDefaultTokenProviders();
-
+        // Remova a segunda chamada do AddIdentity
+        // services.AddIdentity<IdentityUser, IdentityRole>()
+        //     .AddEntityFrameworkStores<ApplicationDbContext>()
+        //     .AddDefaultTokenProviders();
     }
 
     // Configuração do pipeline de requisição HTTP
-    public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ApplicationDbContext context)
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
         if (env.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
-
-            // Apaga e recria o banco de dados automaticamente quando o aplicativo é iniciado
-            context.Database.EnsureDeleted();  // Apaga o banco de dados se ele existir
-            context.Database.EnsureCreated();  // Recria o banco de dados
         }
         else
         {
@@ -57,17 +48,15 @@ public class Startup
 
         app.UseRouting();
 
+        app.UseAuthentication(); // Certifique-se de que isso esteja aqui
         app.UseAuthorization();
 
         app.UseEndpoints(endpoints =>
         {
             endpoints.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");// Aqui definimos o HomeController como o padrão
+                pattern: "{controller=Account}/{action=Login}/{id?}"); // Mudar para Account/Login
         });
-
     }
-
-
 
 }
