@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 using ReciclaMais.Data;
 using Microsoft.AspNetCore.Localization;
+using ReciclaMais.Services;
 
 
 
@@ -38,15 +39,12 @@ public class Startup
             .AddViewLocalization();
 
         services.AddRazorPages();
+        services.AddScoped<MessageService>();
 
-        // Mantenha apenas uma configuração de Identity
         services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
             .AddEntityFrameworkStores<ApplicationDbContext>();
 
-        // Remova a segunda chamada do AddIdentity
-        // services.AddIdentity<IdentityUser, IdentityRole>()
-        //     .AddEntityFrameworkStores<ApplicationDbContext>()
-        //     .AddDefaultTokenProviders();
+       
     }
 
     // Configuração do pipeline de requisição HTTP
@@ -65,7 +63,7 @@ public class Startup
         app.UseHttpsRedirection();
         app.UseStaticFiles();
 
-        // Definindo culturas suportadas
+        // Definindo o idioma
         var supportedCultures = new[] { new CultureInfo("pt-BR") };
         var localizationOptions = new RequestLocalizationOptions
         {
@@ -78,15 +76,20 @@ public class Startup
         app.UseRequestLocalization(localizationOptions);
         app.UseRouting();
 
-        app.UseAuthentication(); // Certifique-se de que isso esteja aqui
+        app.UseAuthentication(); 
         app.UseAuthorization();
 
         app.UseEndpoints(endpoints =>
         {
             endpoints.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Account}/{action=Login}/{id?}"); // Mudar para Account/Login
+                pattern: "{controller=Account}/{action=Login}/{id?}");
+            endpoints.MapControllerRoute(
+                name: "message",
+                pattern: "{controller=Message}/{action=SendMessage}/{id?}");
+
         });
+        
     }
 
 }

@@ -60,7 +60,7 @@ public class MaterialController : Controller
         }
 
         var mensagem = $"Olá {material.Contribuinte.Nome}, o coletor se interessou pelo seu material: {material.Descricao}.";
-        TempData["Mensagem"] = mensagem; // Usar TempData para passar a mensagem
+        TempData["Mensagem"] = mensagem; 
         return RedirectToAction("Detalhes", new { id = id });
     }
 
