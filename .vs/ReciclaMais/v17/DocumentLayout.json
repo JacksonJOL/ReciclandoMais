@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|c:\\users\\suasvendas\\source\\repos\\reciclamais\\reciclamais\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D11A5EE-E9DF-4855-A277-6432849204B7}|ReciclaMais\\ReciclaMais.csproj|solutionrelative:reciclamais\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -30,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,59 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Models\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ReciclaMais\\Models\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Models\\LoginViewModel.cs",
-              "RelativeToolTip": "ReciclaMais\\Models\\LoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T16:23:47.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ReciclaMais\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ReciclaMais\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDEAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T19:17:35.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Startup.cs",
-              "RelativeDocumentMoniker": "ReciclaMais\\Startup.cs",
-              "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Startup.cs",
-              "RelativeToolTip": "ReciclaMais\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T19:16:46.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "ReciclaMais\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "ReciclaMais\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T18:57:29.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SuasVendas\\source\\repos\\ReciclaMais\\ReciclaMais\\Program.cs",
               "RelativeDocumentMoniker": "ReciclaMais\\Program.cs",
@@ -134,7 +66,7 @@
               "RelativeToolTip": "ReciclaMais\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T18:30:47.514Z",
+              "WhenOpened": "2024-10-04T12:35:53.522Z",
               "EditorCaption": ""
             }
           ]

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReciclaMais")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19ea5cebb3fb0738f08fbf1547d7c9f0f68398b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7f4918f2a3ab33b7878fb271c97bca592965818")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReciclaMais")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReciclaMais")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
